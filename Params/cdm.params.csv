@@ -1,0 +1,6 @@
+Name,Value
+"group.name","ECI"
+"cdm_database_schema","OMOP_CDM"
+"vocabulary_database_schema","omop_cdm"
+"results_database_schema","omop_results"
+"table_stem","colin_survival_analysis"

@@ -37,7 +37,8 @@ keyring_name = Sys.getenv("MY_KEYRING_NAME")
 
 ## load keyring password
 keyring_password = Sys.getenv("MY_KEYRING_PASSWORD")
-keyring::keyring_unlock(key_ring = keyring_name, password = keyring_password)
+
+##keyring::keyring_unlock(key_ring = keyring_name, password = keyring_password)
 
 ## create or unlock existing keyring
 if( !(keyring_name %in% keyring::keyring_list()$keyring) ){
